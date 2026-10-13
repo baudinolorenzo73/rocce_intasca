@@ -1,32 +1,30 @@
-# Rocce in tasca — PWA v1.4.1
+# Rocce in tasca — PWA v1.5.0
 
-Questa cartella è pronta per GitHub Pages. Contiene 31 schede e 31 fotografie libere con autore, licenza e collegamento alla fonte.
+Carica il contenuto di questa cartella nella cartella principale del tuo repository GitHub, mantenendo `photos` e `maps`. Su Settings → Pages seleziona Deploy from a branch → main → /(root). La cartella non deve diventare una sottocartella del sito.
 
-Ripasso GEA prioritario: diorite, anatessi, facies sedimentarie e metamorfiche, micascisto, condotta freatica e ofioliti, più risposta aperta sui processi endogeni ed esogeni con esempio Avigliana. Disponibile nella Guida e nel focus Avigliana anche offline. Le domande sono state segnalate dall’utente, non sono garantite come domande ufficiali d’esame.
+## Novità
 
-Novità: sezione Piemonte con 53 geositi ARPA, ricerca e filtro per provincia, posizioni su reticolo offline, schede ufficiali con immagini e mappa OpenStreetMap online. Focus Avigliana e Lago Piccolo con geologia glaciale, sedimenti, acqua, habitat e domande di ripasso GEA.
+- Carta geologica GeoPiemonte a tutta larghezza, con i 53 geositi sovrapposti.
+- Ingrandimento e scorrimento delle carte dentro l’app.
+- Legenda regionale originale ricercabile per sigla o litologia.
+- Carta CARG di Avigliana e dei due laghi, con legende originali del substrato e dei depositi superficiali.
+- Fotografia del Lago Piccolo con autore e licenza.
+- Anteprime ufficiali ARPA per tutti i 53 geositi, disponibili online; in assenza di rete compare un messaggio al posto dell’immagine.
 
-Il reticolo offline non è una carta topografica. Le mappe stradali richiedono Internet e si caricano soltanto premendo il relativo pulsante. Le posizioni ARPA sono punti di osservazione, non necessariamente accessi o parcheggi. Il punto del Lago Piccolo indica il bacino, non un percorso.
+Carte, legende, foto del Lago Piccolo, 31 foto di rocce e testi sono inclusi anche offline. Le schede ufficiali, le anteprime ARPA, le mappe stradali e i servizi esterni richiedono Internet. Il file `Rocce_in_tasca_v1.5.html` incorpora carte e fotografie locali in un unico HTML.
 
-Dati regionali: Arpa Piemonte – Geoportale, Catasto regionale dei geositi, estrazione del 13 ottobre 2026, CC BY 4.0. Consulta le singole schede per fotografie e condizioni di visita. Verifica gli avvisi del Parco: non è garantita l’apertura dell’anello del Lago Piccolo.
+## Fonti e licenze
 
-## Pubblicazione rapida su GitHub
+- GeoPiemonte Map: Arpa Piemonte – Geoportale e CNR IGG, servizio cartografico regionale 1:250.000; metadati con licenza CC BY 2.5 Italia. Carta e legenda estratte il 13 ottobre 2026, punti sovrapposti dall’app.
+- CARG Foglio 155 Torino Ovest: Servizio Geologico d’Italia – ISPRA (2009), con CNR, ARPA e Università; CC BY 4.0. Carta visualizzata tramite il servizio ARPA, legende ritagliate dal PDF originale: https://www.openaccessrepository.it/records/143629
+- Lago Piccolo di Avigliana: Marco Ebreo, CC BY-SA 4.0; fotografia ridimensionata: https://commons.wikimedia.org/wiki/File:Lago_Piccolo_Avigliana.jpg
+- Catasto geositi: Arpa Piemonte – Geoportale, CC BY 4.0. Le anteprime sono caricate direttamente dagli URL del catasto e non sono incluse come copie nel pacchetto; consulta le schede originali per i crediti completi.
+- Le 31 fotografie dell’atlante mantengono autore, licenza e fonte nelle relative schede.
 
-1. Crea un repository pubblico, per esempio `rocce-in-tasca`.
-2. Carica **tutti i file e la cartella `photos` nella cartella principale del repository**.
-3. Apri **Settings → Pages**.
-4. In **Build and deployment**, scegli **Deploy from a branch**.
-5. Seleziona **main** e **/(root)**, quindi premi **Save**.
-6. Attendi alcuni minuti e apri `https://TUO-NOME-UTENTE.github.io/rocce-in-tasca/`.
+La scala della fonte non cambia ingrandendo l’immagine. Le carte geologiche non sono carte escursionistiche; un punto di osservazione non identifica necessariamente un ingresso o un parcheggio.
 
-## Installazione
+## Installazione e aggiornamento
 
-- Android/Chrome: pulsante **Installa** oppure menu ⋮ → **Aggiungi a schermata Home**.
-- Computer/Chrome o Edge: pulsante **Installa** nella barra degli indirizzi o nell’app.
-- iPhone/iPad: Safari → **Condividi** → **Aggiungi alla schermata Home**.
+Android/Chrome: Installa nell’app o menu → Aggiungi a schermata Home. iPhone/iPad: Safari → Condividi → Aggiungi alla schermata Home. Chrome/Edge su computer: pulsante Installa nella barra degli indirizzi.
 
-## Aggiornamenti
-
-Sostituisci i file del repository mantenendo la struttura e la cartella `photos`. Prima di aggiornamenti importanti è consigliato esportare il taccuino.
-
-`Rocce_in_tasca_v1.4.html` è la versione autonoma: riconoscimento, atlante, fotografie, geositi e focus locale funzionano senza connessione. Wikipedia, Mindat, schede esterne e mappe stradali richiedono Internet.
+Per aggiornare una pubblicazione esistente, sostituisci i file e aggiungi la cartella `maps`. Dopo l’aggiornamento usa “Aggiorna” nell’app. Il taccuino è locale al browser e all’indirizzo del sito: esportalo prima di cambiare repository o URL.
